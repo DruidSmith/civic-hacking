@@ -2,6 +2,13 @@
 
 This document will serve to document some lessons learned and provide tips on extracting structured text from HTML and PDF.
 
+**General Info**
+This document will talk about various tools and types of documents, as I wrestle through the challenge and teach myself tricks for extracting documents.  As I dig deeper, I will be talking about a variety of things, like programming languages (i.e. Python) as well as some software tools.
+
+Not yet explored, but showing promise:
+
+- [Apache Tika](http://tika.apache.org/) - recommended by [Sophia Parafina](http://twitter.com/spara)
+
 ### Parsing HTML Documents
 
 **Python**
