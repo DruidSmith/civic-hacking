@@ -23,3 +23,4 @@ From [Joe Larson](https://twitter.com/oeon), this tip: use [Tabula](http://sourc
 
 I am still investigating options for parsing PDF documents into structured text.  One fortunate thing is that I have an older version of Adobe Acrobat Professional, which allows documents to be exported in various formats.  However, that doesn't necessarily solve the problems of odd formatting and extraneous tagging within the document.
 
+One thing that was useful was processing the PDF in Acrobat to optimize and reduce size.  That appears to have consolidated some of the tagging.  Given a document of nearly 2,000 pages, I still had some issues of Adobe crashing while attempting to export the document.  To that end, I split it into two smaller pieces using the Adobe Acrobat "extract pages" function, which perhaps also may leave behind any other embedded oddities in the document that many have been leading to crashes.
