@@ -9,6 +9,9 @@ This document will talk about various tools and types of documents, as I wrestle
 Not yet explored, but showing promise:
 
 - [Apache Tika](http://tika.apache.org/) - recommended by [Sophia Parafina](http://twitter.com/spara)
+- [Apache PDFBox](http://pdfbox.apache.org/) - recommended by [Steve Citron-Pousty](http://twitter.com/@TheSteve0) - appears to be geared toward extracting data from PDFs.
+- [Data Science Toolkit](http://www.datasciencetoolkit.org/) - recommended by [Harry Wood](http://twitter.com/harry_wood)
+- [CAM-PDF](http://search.cpan.org/~cdolan/CAM-PDF-1.60/lib/CAM/PDF.pm) - recommended by [Jeremiah Felt](http://twitter.com/jeremiahfelt)
 
 ### Parsing HTML Documents
 
