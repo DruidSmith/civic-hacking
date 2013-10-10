@@ -15,6 +15,10 @@ Beautiful Soup is a library for Python, which provides easy canonic access to th
 
 ### Parsing PDF Documents
 
+**Tabula:  For PDF Containing Tables**
+
+From [Joe Larson](https://twitter.com/oeon), this tip: use [Tabula](http://source.mozillaopennews.org/en-US/articles/introducing-tabula/) from Mozilla Open.  It allows you to upload a PDF containing tabular data, and returns a csv.
+
 **Adobe Acrobat Professional**
 
 I am still investigating options for parsing PDF documents into structured text.  One fortunate thing is that I have an older version of Adobe Acrobat Professional, which allows documents to be exported in various formats.  However, that doesn't necessarily solve the problems of odd formatting and extraneous tagging within the document.
