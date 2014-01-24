@@ -65,7 +65,7 @@ http://oaspub.epa.gov/enviro/multisys2_v2.get_list?facility_uin=110000538525
 
 ### Greenhouse Gas Report
 
-For some EPA reports, a program ID may be needed, for example, to retrieve information from EPA's Greenhouse Gas reporting program, the E-GGRT ID is needed.
+For some EPA reports, a program ID may be needed, for example, to retrieve information from EPA's Greenhouse Gas reporting program, the E-GGRT ID is needed.  This can be found when the program system output parameter is specified in the FRS REST Lookup, '&program_output=yes' which will return program ID, i.e.
 
 > "ProgramSystemAcronym":"E-GGRT",
 "ProgramSystemId":"1000883",
@@ -83,3 +83,18 @@ This Envirofacts REST API utilizes canonic calls which can access data by specif
 
 In a similar manner to the reports above, the facility identifiers can be used to unlock data from the Envirofacts REST API.
 
+### Starting with Geography and getting to Energy Generators
+
+The EPA Facility Lookup REST Service can also allow you to query via geography, for example, 'Shelocta, PA' or 'Indiana County, PA' or by coordinates
+
+"Search for EIA-860 facilities in Shelocta, PA"
+
+http://ofmpub.epa.gov/enviro/frs_rest_services.get_facilities?state_abbr=PA&city_name=Shelocta&pgm_sys_acrnm=EIA-860&program_output=yes&output=json
+
+"Search for EIA-860 facilities in Indiana County, PA"
+
+http://ofmpub.epa.gov/enviro/frs_rest_services.get_facilities?state_abbr=PA&county_name=Indiana&pgm_sys_acrnm=EIA-860&program_output=yes&output=json
+
+"Search for EIA-860 facilities within a 10 mile radius of 46.65,-79.33"
+
+http://ofmpub.epa.gov/enviro/frs_rest_services.get_facilities?latitude83=40.65&longitude83=-79.33&search_radius=10&pgm_sys_acrnm=EIA-860&output=json
