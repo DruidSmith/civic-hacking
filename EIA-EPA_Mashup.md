@@ -15,7 +15,7 @@ FRS has a [Facility Lookup REST Service](http://www.epa.gov/enviro/html/fii/FRS_
 ### Basic Example
 
 Example:  The Keystone Power Plant in Shelocta, PA has an EIA-860 ORIS ID of 3136.
-This can be queried via the FRS Facility Lookup Service as follows (simplest example, with defaults:
+This can be queried via the FRS Facility Lookup Service as follows (simplest example, with defaults):
 
 [http://ofmpub.epa.gov/enviro/frs_rest_services.get_facilities?pgm_sys_acrnm=EIA-860&pgm_sys_id=3136](http://ofmpub.epa.gov/enviro/frs_rest_services.get_facilities?pgm_sys_acrnm=EIA-860&pgm_sys_id=3136)
 
@@ -28,11 +28,11 @@ The default response type is XML
 
 ### Useful Parameters
 
-To specify JSON or JSONP, append these as an output parameter, example:
+To specify JSON or JSONP, simply append this request as an output parameter using an ampersand, example:
 
 http://ofmpub.epa.gov/enviro/frs_rest_services.get_facilities?pgm_sys_acrnm=EIA-860&pgm_sys_id=3136&output=JSON
 
-To request additional EPA program outputs, add 'program_output=yes' as a parameter, example:
+To request additional EPA program outputs, add '&program_output=yes' as a parameter, example:
 
 [http://ofmpub.epa.gov/enviro/frs_rest_services.get_facilities?pgm_sys_acrnm=EIA-860&pgm_sys_id=3136&program_output=yes&output=JSON](http://ofmpub.epa.gov/enviro/frs_rest_services.get_facilities?pgm_sys_acrnm=EIA-860&pgm_sys_id=3136&program_output=yes&output=JSON)
 
@@ -40,14 +40,14 @@ Program output may be useful for accessing some reports and data, for example ac
 
 ### Useful Outputs
 
-Note that the service returns many core elements that may be useful in applications, for example latitude and longitude:
+Note that the service returns many core facility elements that may be useful in applications, for example latitude and longitude:
 
 > "Latitude83":"40.659509",
 "Longitude83":"-79.337818"
 
 These can be useful for displaying a simple map, for example using [Leaflet.js](http://leafletjs.com/).
 
-However, the one that can be very powerful in terms of mashups and unlocking a lot of additional data is the FRS Registry ID
+However, the one attribute that can be very powerful in terms of mashups and unlocking a lot of additional data is the **FRS Registry ID**
 
 > "RegistryId":"110000538525",
 
