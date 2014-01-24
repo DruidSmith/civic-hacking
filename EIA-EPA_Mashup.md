@@ -73,6 +73,8 @@ For some EPA reports, a program ID may be needed, for example, to retrieve infor
 "ProgramSystemId":"1000883",
 "ProgramFacilityName":"KEYSTONE"
 
+This greenhouse gas ID can then be used to link to greenhouse gas reports in the ghgdata.epa.gov site, for example
+
 http://ghgdata.epa.gov/ghgp/service/html/2012?id=1000883
 
 This call will retrieve a snippet of HTML containing detailed information about greenhouse gas emissions for this plant
