@@ -98,3 +98,12 @@ http://ofmpub.epa.gov/enviro/frs_rest_services.get_facilities?state_abbr=PA&coun
 "Search for EIA-860 facilities within a 10 mile radius of 46.65,-79.33"
 
 http://ofmpub.epa.gov/enviro/frs_rest_services.get_facilities?latitude83=40.65&longitude83=-79.33&search_radius=10&pgm_sys_acrnm=EIA-860&output=json
+
+### Conclusion
+
+I would be interested in seeing what, if anything, people build using some of these tips.
+
+I will try and post additional tips and info as available - and if you have any questions I can be reached various ways:
+
+- Twitter - [@druidsmith](twitter.com/druidsmith)
+- Email - [smith (dot) davidg @ epa (dot) gov](mailto:smith.davidg@epa.gov)
