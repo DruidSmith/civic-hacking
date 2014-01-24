@@ -1,6 +1,6 @@
-## Collection of Energy Mashup Tips
+## Collection of EPA / DOE Energy Generation Mashup Tips
 
-Suggestions for mashing up Department of Energy data (EIA-860 Power Generation) with EPA data from EPA websites and APIs.
+This document presents some suggestions for mashing up Department of Energy data (EIA-860 Power Generation) with EPA data from EPA websites and APIs.
 
 ### Starting point:  How to get to EPA facility data using a Department of Energy ORIS ID
 
