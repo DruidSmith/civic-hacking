@@ -34,6 +34,8 @@ To request additional EPA program outputs, add 'program_output=yes' as a paramet
 
 [http://ofmpub.epa.gov/enviro/frs_rest_services.get_facilities?pgm_sys_acrnm=EIA-860&pgm_sys_id=3136&program_output=yes&output=JSON](http://ofmpub.epa.gov/enviro/frs_rest_services.get_facilities?pgm_sys_acrnm=EIA-860&pgm_sys_id=3136&program_output=yes&output=JSON)
 
+Program output may be useful for accessing some reports and data, for example accessing EPA E-GGRT greenhouse gas data.  This will be shown in more detail below.
+
 ### Useful Outputs
 
 Note that the service returns many core elements that may be useful in applications, for example latitude and longitude:
