@@ -1,10 +1,10 @@
-## Collection of EPA / DOE Energy Generation Mashup Tips
+## Collection of EPA / DOE Power Generation Facility Mashup Tips
 
 ![](http://upload.wikimedia.org/wikipedia/commons/e/e2/DTE_St_Clair.jpg)
 
 This document presents some suggestions for mashing up Department of Energy data (EIA-860 Power Generation) with EPA data from EPA websites and APIs.
 
-### Starting point:  How to get to EPA facility data using a Department of Energy ORIS ID
+### Key Linkage:  How to connect between EPA facility data and Department of Energy ORIS IDs and EIA data
 
 EPA integrates EIA-860 power plant data in its [Facility Registry Service (FRS)](http://epa.gov/frs) on an annual basis.  As such, the EIA-860 ORIS identifiers are available there.  FRS integrates facility data across 90 different datasets to provide a means of linking and crosswalking these datasets.  This can typically be done via the EPA Registry ID.
 
