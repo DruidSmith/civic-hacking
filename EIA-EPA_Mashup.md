@@ -1,5 +1,7 @@
 ## Collection of EPA / DOE Energy Generation Mashup Tips
 
+![](http://upload.wikimedia.org/wikipedia/commons/e/e2/DTE_St_Clair.jpg)
+
 This document presents some suggestions for mashing up Department of Energy data (EIA-860 Power Generation) with EPA data from EPA websites and APIs.
 
 ### Starting point:  How to get to EPA facility data using a Department of Energy ORIS ID
@@ -105,5 +107,5 @@ I would be interested in seeing what, if anything, people build using some of th
 
 I will try and post additional tips and info as available - and if you have any questions I can be reached various ways:
 
-- Twitter - [@druidsmith](http://twitter.com/druidsmith)
+- Twitter - [@druidsmith](twitter.com/druidsmith)
 - Email - [smith (dot) davidg @ epa (dot) gov](mailto:smith.davidg@epa.gov)
