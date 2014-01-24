@@ -105,5 +105,5 @@ I would be interested in seeing what, if anything, people build using some of th
 
 I will try and post additional tips and info as available - and if you have any questions I can be reached various ways:
 
-- Twitter - [@druidsmith](twitter.com/druidsmith)
+- Twitter - [@druidsmith](http://twitter.com/druidsmith)
 - Email - [smith (dot) davidg @ epa (dot) gov](mailto:smith.davidg@epa.gov)
