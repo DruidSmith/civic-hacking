@@ -2,7 +2,7 @@
 
 ![](http://upload.wikimedia.org/wikipedia/commons/e/e2/DTE_St_Clair.jpg)
 
-This document presents some suggestions for mashing up Department of Energy data (EIA-860 Power Generation) with EPA data from EPA websites and APIs.
+This document presents some suggestions for mashing up Department of Energy data (EIA-860 Power Generation) with EPA data from EPA websites and APIs. Use cases could include using EPA's spatial search capability to augment and extend the EIA API in searching for power plants, or in connecting EPA data like emissions and greenhouse gas data to EIA power generation data.  An EPA API that can help this is the Facility Registry Service (FRS) API.
 
 ### Key Linkage:  How to connect between EPA facility data and Department of Energy ORIS IDs and EIA data
 
