@@ -2,6 +2,8 @@
 
 ![](http://upload.wikimedia.org/wikipedia/commons/e/e2/DTE_St_Clair.jpg)
 
+**NOTE:**  Now that the USEPA organizational Github account is available, I've moved this particular document over to reside with some other info and code samples that I've published relating to the FRS Facility Lookup API on the USEPA Org Account.  Most current version of this document is here:  https://github.com/USEPA/FRS-getfacilities-samples/blob/master/EIA-EPA_Mashup.md
+
 This document presents some suggestions for mashing up Department of Energy data (EIA-860 Power Generation) with EPA data from EPA websites and APIs. Use cases could include using EPA's spatial search capability to augment and extend the EIA API in searching for power plants, or in connecting EPA data like emissions and greenhouse gas data to EIA power generation data.  An EPA API that can help this is the Facility Registry Service (FRS) API.
 
 ### Key Linkage:  How to connect between EPA facility data and Department of Energy ORIS IDs and EIA data
